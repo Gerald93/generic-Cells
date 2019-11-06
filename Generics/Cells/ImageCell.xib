@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageCell" rowHeight="320" id="KGk-i7-Jjw" customClass="ImageCell" customModule="Generics" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p3d-7c-o9u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="p3d-7c-o9u" secondAttribute="trailing" id="Lvi-Dq-U6f"/>
+                    <constraint firstItem="p3d-7c-o9u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QnT-Fb-BLZ"/>
+                    <constraint firstAttribute="bottom" secondItem="p3d-7c-o9u" secondAttribute="bottom" id="l82-c8-pMN"/>
+                    <constraint firstItem="p3d-7c-o9u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yob-i8-RMD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="pictureView" destination="p3d-7c-o9u" id="V5c-cg-siD"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="245.75892857142856"/>
+        </tableViewCell>
+    </objects>
+</document>
