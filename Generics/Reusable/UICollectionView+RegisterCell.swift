@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+///Init: let cellTypes: [RegistrableCell.Type] = [TypeACollectionCell.self, TypeBCollectionCell.self]
+///Register: collectionView.register(cellTypes)
+
 extension UICollectionView {
     func register(_ nib: RegistrableCell.Type) {
         self.register(UINib(nibName: nib.nibName, bundle: nil), forCellWithReuseIdentifier: nib.reuseIdentifier)
