@@ -16,7 +16,7 @@ protocol ConfigurableCell {
     static var reuseIdentifier: String { get }
 }
 
-/// Protoco helpfulll as we can hold generic classes in array without defining data types
+/// Protocol helpfulll as we can hold generic classes in array without defining data types
 protocol CellConfigurator {
     static var reuseIdentifier: String { get }
     func configure(cell: UIView)

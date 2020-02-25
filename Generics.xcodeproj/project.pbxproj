@@ -23,6 +23,8 @@
 		68C83748237327CB00B6A453 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C83746237327CB00B6A453 /* ImageCell.xib */; };
 		68C8374B237328D300B6A453 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C8374A237328D300B6A453 /* TableViewModel.swift */; };
 		68C83751237349D200B6A453 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C83750237349D200B6A453 /* Presenter.swift */; };
+		68E65656240524B5005D5F4C /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E65655240524B5005D5F4C /* UICollectionView+RegisterCell.swift */; };
+		68E6565924052593005D5F4C /* CellRegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6565824052593005D5F4C /* CellRegisterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		68C83746237327CB00B6A453 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		68C8374A237328D300B6A453 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		68C83750237349D200B6A453 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		68E65655240524B5005D5F4C /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
+		68E6565824052593005D5F4C /* CellRegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegisterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				68C8373E2373262C00B6A453 /* Data */,
 				68C8373B237324FB00B6A453 /* Cells */,
 				68C8373A237324E800B6A453 /* Configurator */,
+				68E656572405256A005D5F4C /* Reusable */,
 				68C8370E2373230000B6A453 /* Main.storyboard */,
 				68C837112373230300B6A453 /* Assets.xcassets */,
 				68C837132373230300B6A453 /* LaunchScreen.storyboard */,
@@ -182,6 +187,15 @@
 				68C8374A237328D300B6A453 /* TableViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		68E656572405256A005D5F4C /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				68E6565824052593005D5F4C /* CellRegisterProtocol.swift */,
+				68E65655240524B5005D5F4C /* UICollectionView+RegisterCell.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +335,9 @@
 				68C83751237349D200B6A453 /* Presenter.swift in Sources */,
 				68C8370D2373230000B6A453 /* ViewController.swift in Sources */,
 				68C837402373263900B6A453 /* User.swift in Sources */,
+				68E6565924052593005D5F4C /* CellRegisterProtocol.swift in Sources */,
 				68C8374B237328D300B6A453 /* TableViewModel.swift in Sources */,
+				68E65656240524B5005D5F4C /* UICollectionView+RegisterCell.swift in Sources */,
 				68C837092373230000B6A453 /* AppDelegate.swift in Sources */,
 				68C8370B2373230000B6A453 /* SceneDelegate.swift in Sources */,
 				68C83747237327CB00B6A453 /* ImageCell.swift in Sources */,
